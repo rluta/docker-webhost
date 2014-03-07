@@ -1,0 +1,4 @@
+<VirtualHost *:80>
+   Use Host ${HOST} /var/www
+   Use Pagespeed On
+</VirtualHost>

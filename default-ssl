@@ -1,0 +1,6 @@
+<VirtualHost *:443>
+   Use Host ${HOST} /var/www
+   Use SSL ssl-cert-snakeoil
+   Use Pagespeed On
+   Use Spdy On
+</VirtualHost>
